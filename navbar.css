@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+   
+
+}
+header{
+    background-color: black;
+    height: 10vh;
+    font-size: 22px;
+    
+    
+   
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    top: 10px;
+    
+   
+
+
+
+    
+}
+a:hover{
+   color: rgb(217, 122, 122);
+   transition: 0.5s;
+   transform: translateX(15px)
+   
+}
+/* body{
+    
+
+    background-image:url(./SL_030420_28660_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     */
+}
+html{
+ height: 1000px;
+
+}
+.btn{
+
+    border-radius: 9px;
+    height: 2.5em;
+    width: 7em;
+    /* opacity: 0.8; */
+    position: absolute;
+    right: 39px;
+    margin: .5em;
+    top: 11px;
+    background-color: white;
+
+
+
+}
+.input{
+    border-radius: 9px;
+    margin: 0.5em;
+    height: 1.8em;
+    position: absolute;
+    right: 8em;
+    top: 10px;
+    
+    
+
+}
+input[type="text"]::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    transform:translateY(3px);
+    
+}
+
+
+input:hover{
+    background-color: rgb(246, 163, 163);
+    transition: 1.5s;
+    transform: translateX(15px)
+
+    /* width: 20em; */
+}
+#img{
+    filter: invert(100%);
+   height: 2em;
+   display: inline;
+   position: relative;
+   left: 3.5em;
+   top: 21px;
+
+  
+  
+
+   
+   
+
+}
+#img:hover{
+
+  rotate:-360deg ;
+  
+  
+
+    transition: 4s;
+
+}
+.btn:hover{
+    transition: 1.5s;
+    transform: translateX(15px)
+
+/* img:hover{
+    transition: 2s;
+    transform: rotate(360deg); */
+    /* transition: ease-in; */
+}
+.btn:hover{
+    background-color: rgb(246, 163, 163);
+    transition: 1.5s;
+   
+    
+}
+.btn::placeholder{
+    text-align: center;
+    top: 15px;
+    font-size: 1.5em;
+}
+.container i {
+
+  
+    font-size: 2rem;
+    color: white;
+  position: absolute;
+  right: 5px;
+  top: 22px;
+  
+}
